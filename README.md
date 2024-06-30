@@ -1,1 +1,1 @@
-Deploy: https://github.com/desz1983/DesafioInmobiliaria.git
+Deploy:  https://desz1983.github.io/DesafioInmobiliaria/
