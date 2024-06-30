@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link a Font Awesome(iconos)-->
+    <script src="https://kit.fontawesome.com/0412d14843.js" crossorigin="anonymous"></script>
+
+    <!--Link a Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Link a CSS-->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    
+    <title>Inmobiliaria</title>
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <li>
+                <strong><a class="inicio" href="index.html">Inmobiliaria ADL</a></strong>
+            </li>
+            <li>
+                <a href="assets/pages/propiedades_venta.html">En venta</a>
+            </li>
+            <li>
+                <a href="assets/pages/propiedades_alquiler.html">Alquiler</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="background-section">
+        <h1>Encuentra tu nueva propiedad</h1>
+    </section>
+
+    <main>
+        <h2>Propiedades en venta</h2>
+        <section class="propiedades-venta"></section>
+        <button type="button" class="ventas-btn" onclick="location.href='assets/pages/propiedades_venta.html'">Ver todas las propiedades en venta</button>
+        <hr>
+        <h2>Propiedades en alquiler</h2>
+        <section class="propiedades-alquiler"></section>
+        <button type="button" class="alquiler-btn" onclick="location.href='assets/pages/propiedades_alquiler.html'">Ver todas las propiedades en alquiler</button>
+    </main>
+
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
